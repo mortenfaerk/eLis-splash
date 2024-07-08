@@ -1,8 +1,8 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
-    background-color: #7C9158 ; 
+    font-family: 'Roboto', sans-serif;
+    background-color: #7C9158; /* Primary green */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,41 +12,35 @@ body {
 .splash-screen {
     text-align: center;
     padding: 20px;
-    background-color: #004171; 
-    color: #FFFFFF; 
+    background-color: #004171; /* Blue highlight */
+    color: #FFFFFF; /* White text */
     border-radius: 8px;
     font-size: 1.5em;
-    box-shadow: 10px 5px 5px black;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.3);
 }
 
 .content {
-    max-width: 400px;
+    max-width: 600px;
     margin: 0 auto;
 }
 
-.content img {
-    max-width: 100%;
-    height: auto;
-    width: 100px;
-    height: 100px;
-    margin-bottom:-10px;
-}
-
 .content h1 {
-    font-size: 1.8em;
-    margin-top: 20px;
+    font-size: 2em;
+    margin-top: 0;
 }
 
-.content text {
+.content .text {
     font-size: 1.2em;
     line-height: 1.6;
 }
-.content .subtext{
-    font-size: 0.5em;
+
+.content .subtext {
+    font-size: 0.8em;
+    margin-top: 20px;
 }
 
 .content a {
-    color: #7C9158;
+    color: #7C9158; /* Primary green */
     text-decoration: none;
-    font-weight:700;
+    font-weight: bold;
 }
