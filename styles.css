@@ -33,7 +33,10 @@ body {
     font-size: 1.2em;
     line-height: 1.6;
 }
+.content .text .regards{
+    text-align: left !important;
 
+}
 .content .subtext {
     font-size: 0.8em;
     margin-top: 20px;
